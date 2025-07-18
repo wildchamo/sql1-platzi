@@ -1,6 +1,6 @@
 # Fundamentos de Bases de Datos Relacionales
 
-## Objetivos Principales
+## 🎯 Objetivos Principales
 
 - **Almacenar y administrar** cada dato de forma correcta
 - **Crear queries** que ofrezcan respuestas claras a preguntas complejas
@@ -9,7 +9,7 @@
 
 ---
 
-## Conceptos Clave
+## 🔑 Conceptos Clave
 
 ### 1. Parametrización del Mundo Real
 
@@ -36,7 +36,7 @@
 
 ---
 
-## Abstracción y Modelado
+## 🏗️ Abstracción y Modelado
 
 ### Abstraer Entidades de la Vida Real
 
@@ -56,6 +56,31 @@
 
 ---
 
-## Resumen
+## 📈 Escalabilidad y Planificación
+
+### Construir para Crecer
+
+**Principio:** Construir con la idea de crecer, lanzar una aplicación
+
+**Advertencia importante:**
+> **No tiene sentido sentarse durante días/meses para que sea future-proof**
+
+**Enfoque recomendado:**
+
+- **Desarrollo iterativo** - mejora continua
+- **Escalabilidad gradual** - crece según las necesidades
+- **Optimización cuando sea necesario** - no prematura
+
+---
+
+## 🎯 Resumen
 
 **Meta final:** Abstraer elementos del mundo real y almacenarlos de forma eficiente para facilitar consultas y generar valor de negocio.
+
+### Principios Fundamentales
+
+- ✅ **Parametrización** del mundo real
+- ✅ **Organización** y consistencia
+- ✅ **Abstracción** de entidades
+- ✅ **Escalabilidad** gradual
+- ✅ **Valor de negocio** a través de datos
