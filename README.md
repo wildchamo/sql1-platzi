@@ -83,4 +83,7 @@ Este es un repositorio personal de apuntes, pero si encuentras algún error o ti
 
 ## 📄 Licencia
 
-Este proyecto es de uso educativo personal.
+Este proyecto es de uso educativo personal
+
+
+use platzi_mysql;
