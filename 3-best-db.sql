@@ -120,7 +120,10 @@ alter table test modify column price decimal(10, 4) not null default 0;
 -- fixed 
 -- decimal (m, p) m logintud total, p numero de decimales
 
+alter table test rename column price to prices;
 
+
+alter table test rename to tests;
 
 
 
