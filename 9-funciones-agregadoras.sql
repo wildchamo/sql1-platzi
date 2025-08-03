@@ -25,5 +25,11 @@ case
     else 'ni idea'
 end
 
+-- poderoso
 
 select email, case 
+    when email like '%@gmail.com' then 'gmail'
+    when email like '%@hotmail.com' then 'hotmail'
+    else 'otro'
+end as email_provider
+from clients order by rand() limit 30;
