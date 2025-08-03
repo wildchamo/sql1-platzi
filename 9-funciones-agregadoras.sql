@@ -30,6 +30,17 @@ end
 select email, case 
     when email like '%@gmail.com' then 'gmail'
     when email like '%@hotmail.com' then 'hotmail'
+    when email like '%@yahoo.com' then 'yahoo'
     else 'otro'
 end as email_provider
 from clients order by rand() limit 30;
+
+
+
+select email, case 
+    when email like '%@gmail.com' then 'gmail'
+    when email like '%@hotmail.com' then 'hotmail'
+    when email like '%@yahoo.com' then 'yahoo'
+    else 'otro'
+end as email_provider
+from clients;
