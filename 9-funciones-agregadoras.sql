@@ -14,3 +14,16 @@ select sum(price*stock) from products;
 desc clients;
 
 select email, if (email like '%@gmail.com', 1,0) as gmail ,if (email like '%@hotmail.com', 1,0) as hotmail from clients order by rand() limit 30;
+
+select email, if (email like '%@gmail.com', 1,0) as gmail ,if (email like '%@hotmail.com', 1,0) as hotmail from clients order by rand() limit 30;
+
+case when condition the 'columna 1'
+
+case 
+    when par the par
+    when impar then impar
+    else 'ni idea'
+end
+
+
+select email, case 
