@@ -33,7 +33,7 @@ limit 30;
 select count(*) from bill_products where bill_id=2;
 
 
----
+--- patrones en lineas de tiempo!!!
 
 
-ç+
+-- las bases de datos estan en todos lados!!!
