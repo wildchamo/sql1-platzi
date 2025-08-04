@@ -121,3 +121,5 @@ select name,email, case
 end as email_provider
 from clients
 where name like 'A%' and email like '%@kozey.com';
+
+-- sql es una caja de herramientas!!!!
