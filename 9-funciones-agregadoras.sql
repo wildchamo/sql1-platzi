@@ -86,8 +86,6 @@ group by email_provider
 having total_clientes < 70
 order by total_clientes desc;
 
-
-
 select case 
     when email like '%@gmail.com' then 'gmail'
     when email like '%@hotmail.com' then 'hotmail'
@@ -111,3 +109,15 @@ select name,email, case
 end as email_provider
 from clients
 where name like 'A%';
+
+-- poderoso!!!!!
+
+select name,email, case 
+    when email like '%@gmail.com' then 'gmail'
+    when email like '%@hotmail.com' then 'hotmail'
+    when email like '%@yahoo.com' then 'yahoo'
+    when email like '%@kozey.com' then 'kozey'
+    else 'otro proveedor de correo'
+end as email_provider
+from clients
+where name like 'A%' and email like '%@kozey.com';
