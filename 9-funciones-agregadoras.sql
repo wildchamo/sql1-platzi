@@ -1,6 +1,5 @@
 select count(*) from products;
 
-
 select count(*) from products where price <=500;
 
 select sum(stock) from products;
@@ -8,6 +7,8 @@ select sum(stock) from products;
 select avg(price) from products;
 
 select sum(price*stock) from products;
+
+select round(sum(price*stock)) from products;
 
 -- traducir todos los datos en información!
 
