@@ -37,3 +37,5 @@ select count(*) from bill_products where bill_id=2;
 
 
 -- las bases de datos estan en todos lados!!!
+
+-- que la base de datos te responda preguntas!!!
