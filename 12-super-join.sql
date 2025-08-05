@@ -39,3 +39,11 @@ select count(*) from bill_products where bill_id=2;
 -- las bases de datos estan en todos lados!!!
 
 -- que la base de datos te responda preguntas!!!
+
+select b.bill_id,b.status,c.name,count(bp.bill_product_id) as number_of_products
+from bills as b
+left join clients as c
+on b.client_id=c.client_id
+left join bill_products as bp
+on bp.bill_id=b.bill_id
+group by b.bill_id;
